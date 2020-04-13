@@ -5,4 +5,9 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html'
 })
 export class AppComponent {
+
+  log(text: string): void {
+    console.log(text);
+  }
+
 }
